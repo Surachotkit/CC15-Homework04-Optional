@@ -49,6 +49,29 @@
             top: 5px;
 
         }
+        h4::before{
+            content: "x";
+            position: absolute;
+            bottom: 230px;
+            left: 10px;
+            color: gray;
+        }
+        h4::after{
+            content: "9" ;
+            position: absolute;
+            bottom: 220px;
+            left: 170px;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 20px;
+
+        }
         h4{
            
             position: relative;
@@ -66,8 +89,6 @@
 <body>
     <div class="card">
         <img src="http://www.svgrepo.com/show/429787/human-man-10.svg" alt="profile">
-        <i class="fa-solid fa-xmark" style="color: gray;" ></i>
-        <p>7</p>
         <h4>A.Rudiger</h4>
     </div>
 </body>
